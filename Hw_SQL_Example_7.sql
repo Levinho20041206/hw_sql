@@ -35,7 +35,7 @@ SET search_path = my_schema, "$user", recipesexample;
 -- on Recipes.recipeID = recipe_ingredients.ingredientid
 -- inner join ingredients
 -- on recipe_ingredients.ingredientid = ingredients.ingredientid 
--- where ingredientname = 'Beef'
+-- where ingredientname in ('Garlic', 'Beef')
 
 -- 6 - Ex
 -- select distinct i.ingredientname
